@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="controllers.ModalController"
+      styleClass="modal-root" spacing="12.0">
+    <children>
+        <HBox alignment="CENTER_LEFT" spacing="8.0" styleClass="modal-header">
+            <children>
+                <Label fx:id="lblTitle" text="Details" styleClass="modal-title" />
+                <HBox HBox.hgrow="ALWAYS" />
+                <Button fx:id="btnClose" text="✕" styleClass="modal-close-btn" onAction="#handleClose" />
+            </children>
+        </HBox>
+
+        <TextArea fx:id="txtContent" editable="false" wrapText="true" prefRowCount="10" styleClass="modal-content" />
+
+        <HBox alignment="CENTER_RIGHT">
+            <children>
+                <Button text="Fermer" onAction="#handleClose" styleClass="btn" />
+            </children>
+        </HBox>
+    </children>
+</VBox>
