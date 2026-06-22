@@ -1,7 +1,5 @@
 # Système de Gestion Clinique (MEDI-CLINIC)
-### Mini-Projet de Programmation Java (Examen Final)
-
-Développé pour le module de programmation Java sous la direction de **Pr. Soufiane HAMIDA**.
+### Projet de Programmation Java
 
 ---
 
@@ -36,7 +34,7 @@ Le script créera automatiquement les tables `patients` et `appointments`, défi
 
 ### Option A : IntelliJ IDEA (Recommandé)
 1.  Ouvrez IntelliJ IDEA, cliquez sur **Open** (Ouvrir).
-2.  Sélectionnez le dossier de ce projet (`java project a`).
+2.  Sélectionnez le dossier de ce projet.
 3.  IntelliJ détectera automatiquement le fichier `pom.xml` et importera toutes les dépendances (JavaFX SDK et MySQL JDBC Connector).
 4.  Une fois l'indexation terminée, ouvrez `src/main/java/Main.java`.
 5.  Cliquez sur l'icône verte **Play** à côté de la classe `Main` (ou faites un clic droit sur `Main.java` et choisissez **Run 'Main.main()'**).
@@ -71,5 +69,3 @@ Le script créera automatiquement les tables `patients` et `appointments`, défi
     *   Documentation au format standard **Javadoc** sur toutes les classes et méthodes publiques.
 
 ---
-
-*Bonne chance pour votre examen final !*
