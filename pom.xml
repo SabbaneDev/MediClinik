@@ -47,15 +47,15 @@
     </dependencies>
 
     <build>
-        <sourceDirectory>${project.basedir}/.vscode/src/main/java</sourceDirectory>
+        <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
 
         <!-- Include FXML and CSS resources located in the VS Code source tree so that the MVC structure works as required -->
         <resources>
             <resource>
-                <directory>${project.basedir}/.vscode/src/main/resources</directory>
+                <directory>${project.basedir}/src/main/resources</directory>
             </resource>
             <resource>
-                <directory>${project.basedir}/.vscode/src/main/java</directory>
+                <directory>${project.basedir}/src/main/java</directory>
                 <includes>
                     <include>**/*.fxml</include>
                     <include>**/*.css</include>

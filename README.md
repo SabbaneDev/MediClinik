@@ -32,23 +32,10 @@ Le script créera automatiquement les tables `patients` et `appointments`, défi
 
 ## 4. Importation et Lancement dans votre IDE
 
-### Option A : IntelliJ IDEA (Recommandé)
-1.  Ouvrez IntelliJ IDEA, cliquez sur **Open** (Ouvrir).
-2.  Sélectionnez le dossier de ce projet.
-3.  IntelliJ détectera automatiquement le fichier `pom.xml` et importera toutes les dépendances (JavaFX SDK et MySQL JDBC Connector).
-4.  Une fois l'indexation terminée, ouvrez `src/main/java/Main.java`.
-5.  Cliquez sur l'icône verte **Play** à côté de la classe `Main` (ou faites un clic droit sur `Main.java` et choisissez **Run 'Main.main()'**).
-
-### Option B : Eclipse
-1.  Ouvrez Eclipse, allez sur **File > Import...** (Fichier > Importer).
-2.  Sélectionnez **Maven > Existing Maven Projects** et cliquez sur Next.
-3.  Parcourez et sélectionnez le dossier racine du projet.
-4.  Une fois importé, faites un clic droit sur le projet et choisissez **Run As > Java Application** en sélectionnant la classe `Main`.
-
-### Option C : Visual Studio Code
+###  Visual Studio Code
 1.  Ouvrez le dossier du projet dans VS Code.
 2.  Installez le pack d'extensions **Extension Pack for Java** et **JavaFX Support** si ce n'est pas déjà fait.
-3.  Cliquez sur le lien `Run` affiché au-dessus de la méthode `main` dans `Main.java`.
+3.  Run `mvn clean javafx:run` 
 
 ---
 
